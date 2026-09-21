@@ -1,0 +1,20 @@
+CREATE TABLE IF NOT EXISTS `cittadini` (
+`id_cittadino` INT NOT NULL AUTO_INCREMENT,
+`codice_fiscale` CHAR(16) NOT NULL,
+`nome` VARCHAR(255) NOT NULL,
+`cognome` VARCHAR(255) NOT NULL,
+`sesso` CHAR(1) NOT NULL COMMENT 'M o F',
+`data_nascita` DATE NOT NULL,
+`luogo_nascita` VARCHAR(255) NULL COMMENT = 'Città o Nazione',
+`nazionale_nascita` VARCHAR(255) NULL DEFAULT 'ITALIA' COMMENT = 'ex nazionalità',
+`indirizzo_residenza` VARCHAR(255) NULL, 
+`cap_residenza` CHAR(5) NULL,
+`citta_residenza` VARCHAR(255) NULL,
+`provincia_residenza` CHAR(2) NULL,
+`email` VARCHAR(255) NULL,
+`telefono1` VARCHAR(15) NULL,
+`telefono2` VARCHAR(15) NULL,
+`id_titolo_studio` INT NULL,
+`id_beneficio` INT NULL, 
+PRIMARY KEY (`id_cittadino`)
+) DEFAULT CHARSET=utf8;
