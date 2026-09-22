@@ -32,7 +32,7 @@ Il mio contributo si è focalizzato su:
 
 - `fonte dati/`: Documentazione e strutture dati di input/output (Regionali e Interni).
 
-- `normalizzazione appuntamenti/`: Dataset sanificato con assegnazione automatica dei dati di integrità referenziale (`id\_utente`, `id\_omls`).
+- `normalizzazione appuntamenti/`: Dataset sanificato con assegnazione automatica dei dati di integrità referenziale (`id_utente`, `id_omls`).
 
 - `src/UtentiPerGestionale/`: Utility in C# (.NET) sviluppata per il parsing dei CSV, il matching delle terne anagrafiche e la bonifica.
 
